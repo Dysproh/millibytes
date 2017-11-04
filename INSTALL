@@ -1,0 +1,9 @@
+Building Millibyte
+
+See doc/readme-qt.rst for instructions on building Millibyte-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Millibyte.
+
+See doc/build-*.txt for instructions on building millibyted,
+the intended-for-services, no-graphical-interface, reference
+implementation of Millibyte.

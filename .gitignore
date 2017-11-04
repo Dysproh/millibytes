@@ -1,0 +1,34 @@
+src/*.exe
+src/millibyte
+src/millibyted
+src/test_millibyte
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.millibyte
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+millibyte-qt
+Millibyte-Qt.app
+
+# Unit-tests
+Makefile.test
+millibyte-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
